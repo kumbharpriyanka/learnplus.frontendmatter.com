@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from learnplus.frontendmatter.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jun 2018 08:14:13 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>LearnPlus Demo</title>
+
+	<!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+	<meta name="robots" content="noindex">
+
+	<!-- Material Design Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Roboto Web Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+
+	<!-- AdminPlus Lite CSS (includes Bootstrap) -->
+	<link type="text/css" href="vendor/adminplus.css" rel="stylesheet">
+<link type="text/css" href="vendor/style1.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="assets/css/bootstrap.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<style>
+	.text-block {
+    position: absolute;
+	font-size:30px;
+    top: 64%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+   <!-- padding-left: 20px;
+    padding-right: 20px;-->
+}
+.text-block2 {
+    position: absolute;
+	font-size:30px;
+    top: 64%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+   <!-- padding-left: 20px;
+    padding-right: 20px;-->
+}
+.text-block3 {
+   position: absolute;
+	font-size:30px;
+    top: 78%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+   <!-- padding-left: 20px;
+    padding-right: 20px;-->
+}
+.text-block4 {
+    position: absolute;
+	font-size:30px;
+    top: 78%;
+    right: -3.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+   <!-- padding-left: 20px;
+    padding-right: 20px;-->
+}
+       .centered {
+	   text-shadow: 2px 2px black;
+	   color:white;
+	   font-size:20px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+	 .button {
+	position:absolute;
+    
+    left:35%;
+    background-color:#039be5; 
+   border: 8px solid #eceeef;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    padding: 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 4px;
+    cursor: pointer;
+	
+	 outline:none;
+}
+.button :hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+.button5 {border-radius: 50%;}
+.button5:hover {
+  background-color:#039be5;
+  color: #0074d9;
+   border:8px solid white;
+}
+
+
+	.container {
+  position: relative;
+  width: 80%;
+  
+}
+
+
+.image {
+  display: block;
+  width: 115%;
+  height: auto;
+  border-radius:50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #039be5;
+  top:0;
+  width: 100%;
+  height:100%;
+  transition: .5s ease;
+  opacity:0;
+  border-radius:50%;
+
+}
+
+.container:hover .overlay {
+ <!-- bottom: 0;
+  height: 100%;-->
+  opacity:1;
+}
+		a.preview {
+			display: block;
+			background: #000;
+		}
+		a:hover img {
+			opacity: .9;
+		}
+		.label {
+			font-size: .8rem !important;
+			vertical-align: middle !important;
+		}
+		.btn i.material-icons {
+			position: relative; 
+			top:-1px;
+		}
+	</style>
+</head>
+<body class="ls-top-navbar bg-primary">
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top">
+		<div class="container">
+			<!-- Brand -->
+			<a class="navbar-brand" href="index.html">LearnPlus <small class="label label-success">v3.1.0</small> </a>
+			
+			<ul class="nav navbar-nav pull-xs-right">
+				
+				<li class="nav-item">
+					<a href="log.php" class="btn btn-success btn-rounded btn-navbar" target="_blank"><span class="hidden-xs-down">Login</span> </a>
+				</li>
+			</ul>
+			
+			<!-- // END Collapse -->
+		</div>
+	</nav>
+	<!-- // END Navbar -->
+
+	<!-- Content -->
+	<div class="container">
+		<div class="p-t-2 p-b-2 center">
+			<p class="lead"></p>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header bg-white center">
+						<h4 class="card-title"><a href="signin.php">Student Registration</a></h4>
+					</div>
+					<a href="signin.php" class="preview">
+						<img src="images/student.png" alt="Student App" class="img-fluid">
+					</a>
+					<div class="card-block center">
+						<a href="signin.php" class="btn btn-primary-outline btn-rounded"><i class="material-icons">school</i> Student Registration</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header bg-white center">
+						<h4 class="card-title"><a href="guest-login.php">Admin</a></h4>
+					</div>
+					<a href="guest-login.php"  class="preview">
+						<img src="images/instructor.png" alt="Instructor App" class="img-fluid">
+					</a>
+					<div class="card-block center">
+						<a href="guest-login.php" class="btn btn-primary-outline btn-rounded"><i class="material-icons">person</i> Admin</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div align="center">
+<a href="fixed-student-take-quiz.html">
+						<img src="images/btn8.png" align="middle" alt="Quiz Time"  style="width:145px;height:145px;" >
+					
+					
+					</div>
+					</a>
+
+  </div>
+<br>
+<div class="thumbnail" style="background: transparent; border: 1px solid #ddd0">
+<ul style="list-style-type:none">
+<li style="float:left; width:51%">
+        <a href="" target="_blank">
+          <img src="images/bl5.png" alt="Lights" style="width:30%;height:70%;">
+          
+        </a>
+      </div>
+	  <br><br><br><br>
+<div >
+<ul style="list-style-type:none">
+<li style="float:left; width:51%">
+<div>
+<a href="#">
+						<img src="images/bl2.png" alt="how to play" style="width:600px;height:150px;" >
+					<div class="text-block"><img src="images/q4.png" alt="how to play" style="width:60px;height:50px;color:white;" >
+					&nbsp;&nbsp;<b>How To Play<b></div></a></div>
+					</li>
+<li style="float=right;">
+					<a href="#">
+						<img src="images/bl2.png" alt="first prize" style="width:600px;height:150px;" >
+					<div class="text-block2"><img src="images/winner.png" alt="how to play" style="width:80px;height:70px;color:white;" >
+					&nbsp;&nbsp;<b>Today's Prize<b></div>
+					</a></li></ul>
+
+  </div><br>
+  <div>
+<ul style="list-style-type:none">
+<li style="float:left; width:51%">
+<div>
+<a href="#">
+						<img src="images/bl2.png"  alt="how to play" style="width:600px;height:150px;" >
+					<div class="text-block3"><img src="images/r7.png" alt="how to play" style="width:60px;height:50px;color:white;" >
+					&nbsp;&nbsp;<b>Last Quiz Result<b></div></a></div>
+					</li>
+				
+<li style="float=right;">
+					<a href="#">
+						<img src="images/bl2.png" alt="first prize" style="width:600px;height:150px;" >
+					<div class="text-block4"><img src="images/u2.png" alt="how to play" style="width:60px;height:50px;color:white;" >
+					&nbsp;&nbsp;<b>Top 5 Players Today<b></div>
+					</a></li></ul>
+
+ </div>
+<br><br>
+
+  <div align="center">
+  
+  <p><font color="white"><b>
+  Address :<br><br>
+Binarybridge Technologies India Pvt. Ltd. 
+Office No 3,3rd floor PC Soft Tower, 
+Near Kotak Mahindra Bank,
+Bhandarkar Road,
+Deccan Pune-411004.<br>
+ </b> </font></p>
+  <p><font color="white"><b>
+  Contact:<br><br>
+(+91) 8208520181
+info@binarybridgeindia.com 
+   </b> </font></p></div>
+
+	<!-- // END Content -->
+
+	<!-- jQuery -->
+	<script src="vendor/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="vendor/tether.min.js"></script>
+	<script src="vendor/bootstrap.min.js"></script>
+
+</body>
+
+<!-- Mirrored from learnplus.frontendmatter.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jun 2018 08:14:24 GMT -->
+</html>
